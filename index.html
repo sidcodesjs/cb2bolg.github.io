@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderBeings Blogs.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="babita.css">
+    <body>
+    
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#empty" class="active">CODERBEINGS.com</a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blogs</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <img class="image" src="Coderbeing logo 2.png" alt="Coderbeings logo">
+        </div>
+    </nav>
+    <!-- <p class="coder" href="">CODERBEINGS.com</p> -->
+</head>
+<script src="madhvi.js"></script>
+<section class="sec2">
+
+    <div class="container">
+        
+        <!-- CODERBEIBGS.com -->
+        <h1 class="title">HOW TO MAKE TO-DO LIST IN JAVASCRIPT.</h1>
+        <br>
+        <br>
+       <strong style="color: white; font-style: normal;font-family: 'Open Sans', sans-serif; margin: 30px;">Article By Geek</strong>
+        <p class="blog">Writing things down helps  us reduce stress and makes you feel more relaxed. We get a feeling of being in control of our actions.
+            Also, crossing items off your to-do list gives you a sense of accomplishment and progress. This helps us motivate ourselves and keep going when things get tough.
+            Let’s create a to do list for in just 3 simple steps with the help of JavaScript:
+            <br>
+            <br>
+            <br>
+            <strong class="strong1" style="font-size: 1.5vw;">Step 1:</strong>
+            <br>
+            Create a HTML file in your VS code, and start your HTML file with a boiler plate.
+            <br>
+            <br>
+            <img class="image1" src="html-boilerplate.png" alt="boilerplate">
+            <br>
+            <br>
+            <strong class="" style="font-size: 1.5vw;"> Step 2:</strong>
+            <br>
+            Now create a CSS file for styling it.
+            <br>
+            <br>
+            <br>
+
+          <strong style="font-size: 1.5vw ;">  Step 3: </strong>
+          <br>
+          
+         
+Add JS code to it so as to complete the to do list.
+<br>
+<br>
+<br>
+<!-- (Scroll down to copy the code.) -->
+
+            </p>
+             <div class="sect">
+                 
+                 <code id="code1">
+                    if ( document.querySelector ( ' # newtask input ' ) .
+                    <br> 
+
+value.length == 0 ) { 
+    <br>
+
+alert ( " Please Enter a Task " ) 
+<br>
+
+} 
+<br>
+
+else
+<br> 
+
+document.querySelector ( ' # tasks ' ) . innerHTML 
+<br>
++ = 
+<br>
+< div class = " task " > 
+<br>
+< span id = " taskname " > 
+<br>
+$ { document.querySelector 
+<br>
+( ' #newtask input ' ) . value } 
+<br>
+  
+
+else { 
+<br>
+document.querySelector ( ' # tasks ' ) . innerHTML 
+<br>
++ = 
+<br>
+< div class = " task " > 
+<br>
+< span id = " taskname " > 
+<br>
+$ { document.querySelector 
+<br>
+( ' #newtask input ' ) . value } 
+<br>
+< / span > 
+<br>
+< button class = " delete " > 
+<br>
+< i class = " far fa - trash - alt " > < / 
+<br>
+i > 
+<br>
+< / button > 
+<br>
+< / div > 
+<br>
+var current_tasks = document . 
+<br>
+querySelectorAll ( " . delete " ) ; 
+<br>
+for ( var i = 0 ; i < current_tasks.length ; iCA 
+<br>
+current_tasks [ i ] .onclick = function 
+<br>
+This.parentNodet 
+<br>
+var tasks = document.querySelectorAll ( " . 
+<br>
+task " ) ; 
+<br>
+for ( var i = 0 ; i < tasks.length ; i ++ ) { 
+<br>
+tasks [ i ] .onclick = function ( ) { 
+<br>
+this.classList.toggle ( ' completed ' ) ; 
+<br>
+C 
+<br>
+} 
+<br>
+I 
+<br>
+CA 
+<br>
+document.querySelector ( " #newtask input " )
+    <br>       
+    <br>          
+        
+    <!-- <br> -->
+    <!-- <br> -->
+    
+</div>
+
+</div>
+<button class="copycode" onclick="myFunction2()">Copy Code.</button>
+                        <h1 class="h2">Explanation.</h1>
+                        <p class="summary1">1. <code style="color: palevioletred ; background-color: aliceblue;">document.querySelector()</code> is used to select query from HTML 
+                        <br>The querySelector() is a method of the Element interface. The querySelector() method allows you to select the first element that matches one or more CSS selectors.
+
+                        </p>
+                        <p class="summary1">2.<code style="color: palevioletred ; background-color: aliceblue;">The innerHTML</code> property can be used to write the dynamic html on the html document.
+
+                            It is used mostly in the web pages to generate the dynamic html such as registration form, comment form, links etc.</p>
+
+                            <p class="summary1">3.The <code style="color: palevioletred ; background-color: aliceblue;">alert()</code> method in JavaScript is used to display a virtual alert box. It is mostly used to give a warning message to the users. It displays an alert dialog box that consists of some specified message (which is optional) and an OK button.</p>
+                            <p class="summary1">4.HTML<code style="color: palevioletred ; background-color: aliceblue;">span</code> tag is used as a generic container of inline elements. It is used for styling purpose to the grouped inline elements (using class and id attribute or inline style).
+
+                                The span tag does not have any default meaning or rendering.</p>
+
+                                <small style=" font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: white;font-size: 1vw; text-align: center;">Copyright <em>Coderbeings.com</em> All right reserved</small>
+                    </body>
+                </section>
+                    </html>
